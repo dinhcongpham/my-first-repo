@@ -24,13 +24,13 @@
 
 ### Bước 1: Đăng Nhập Vào Tài Khoản GitHub
 - Truy cập [https://github.com/](https://github.com/) và đăng nhập vào tài khoản của bạn.
-<div style="text-align:center"><img src="folder/image-47.png " width="300" height="350" /></div>
+<div align="center"><img src="folder/image-47.png " width="300" height="350" /></div>
 
 
 ### Bước 2: Tạo Một Repository Mới
 - Ở góc trên bên phải, nhấp vào biểu tượng **+** và chọn **New repository**.
 
-<div style="text-align:center"><img src="folder/image-48.png " height="200" /></div>
+<div align="center"><img src="folder/image-48.png " height="200" /></div>
 
 ### Bước 3: Cấu Hình Repository
 - **Repository name**: Nhập tên cho repository (ví dụ: `my-first-repo`).
