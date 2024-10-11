@@ -24,13 +24,13 @@
 
 ### Bước 1: Đăng Nhập Vào Tài Khoản GitHub
 - Truy cập [https://github.com/](https://github.com/) và đăng nhập vào tài khoản của bạn.
-<div style="text-align:center"><img src="image-47.png " width="300" height="350" /></div>
-<div style="text-align:center"><img src="image-47.png "/></div>
+<div style="text-align:center"><img src="folder/image-47.png " width="300" height="350" /></div>
+
 
 ### Bước 2: Tạo Một Repository Mới
 - Ở góc trên bên phải, nhấp vào biểu tượng **+** và chọn **New repository**.
 
-<div style="text-align:center"><img src="image-48.png " height="200" /></div>
+<div style="text-align:center"><img src="folder/image-48.png " height="200" /></div>
 
 ### Bước 3: Cấu Hình Repository
 - **Repository name**: Nhập tên cho repository (ví dụ: `my-first-repo`).
@@ -42,22 +42,22 @@
   - Chọn **Public** để repository có thể được xem bởi bất kỳ ai.
   - Chọn **Private** nếu bạn muốn repository chỉ được xem bởi bạn hoặc những người bạn cho phép.
 
-![alt text](image-57.png)
+![alt text](folder/image-57.png)
 
 - **Initialize this repository with**:
   - Chọn **Add a README file** để tạo một tệp README.md cơ bản.
   - Nếu muốn, bạn có thể thêm `.gitignore` hoặc chọn một giấy phép cho repository (license).
 - Nhấp vào **Create repository**.
 
-![alt text](image-51.png)
+![alt text](folder/image-51.png)
 
 - Vậy là bạn đã tạo thành công một repository của riêng mình
 
-![alt text](image-58.png)
+![alt text](folder/image-58.png)
 
 - Bạn sẽ thấy hướng dẫn sử dụng git để đấy dự án lên GitHub ở phía bên dưới
 
-![alt text](image-59.png)
+![alt text](folder/image-59.png)
 
 ## 3. Sử Dụng Git Để Đẩy Dự Án Lên GitHub
 
@@ -66,20 +66,20 @@
 ### Bước 1: Khởi Tạo Repository Cục Bộ
 - Truy cập vào Folder nơi bạn muốn lưu trữ dụ án, Click chuột phải và chọn __Git Bash Here__:
 
-![alt text](image-53.png)
+![alt text](folder/image-53.png)
 
 - Sử dụng câu lệnh sau để khởi tạo repository cục bộ:
 ```bash
 git init
 ```
-![alt text](image-54.png)
+![alt text](folder/image-54.png)
 
 - Sử dụng câu lệnh sau để tạo một file README.md với nội dung **"# my-first-repo"**:
 ```bash
 echo "# my-first-repo" >> README.md
 ```
 
-<div style="text-align:center"><img src="image-60.png "/></div>
+<div style="text-align:center"><img src="folder/image-60.png "/></div>
 
 
 ### Bước 2: Kết Nối Repository Cục Bộ Với GitHub
@@ -87,7 +87,7 @@ echo "# my-first-repo" >> README.md
 ```bash
 git remote add origin https://github.com/dinhcongpham/my-first-repo.git
 ```
-![alt text](image-56.png)
+![alt text](folder/image-56.png)
 
 ### Bước 3: Thêm Tệp Và Đẩy Lên GitHub
 - Thêm tệp vào repository cục bộ:
@@ -106,12 +106,12 @@ git branch -M main
 ```bash
 git push -u origin main
 ```
-<div style="text-align:center"><img src="image-61.png "/></div>
+<div style="text-align:center"><img src="folder/image-61.png "/></div>
 
 ## 4. Kiểm Tra Trên GitHub
 - Mở trình duyệt và truy cập vào repository của bạn trên GitHub. Các tệp vừa đẩy sẽ xuất hiện trong repository.
 
-![alt text](image-62.png)
+![alt text](folder/image-62.png)
 
 ---
 
