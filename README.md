@@ -35,7 +35,7 @@
 ### Bước 3: Cấu Hình Repository
 - **Repository name**: Nhập tên cho repository (ví dụ: `my-first-repo`).
 
-![alt text](image-49.png)
+![alt text](folder/image-49.png)
 
 - **Description**: (Tuỳ chọn) Thêm mô tả ngắn về repository.
 - **Privacy**:
